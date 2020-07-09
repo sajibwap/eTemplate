@@ -1,0 +1,251 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Vogue</title>
+</head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://www.shopmaster.com/static/html/templates/templates.min.css" rel="stylesheet">
+<link href="https://www.shopmaster.com/static/html/templates/Homey.css" rel="stylesheet">
+<style type="text/css">
+    /***动态生成下面***/
+    #picture_module .h_slide .gallery_nav{
+        height:90px;
+        padding-bottom:10px;
+        text-align: center;/**数量大于5时去掉**/
+    }
+    #picture_module .picture_carousel_radio:nth-of-type(1):checked ~ div > .gallery_img:nth-of-type(1),
+    #picture_module .picture_carousel_radio:nth-of-type(2):checked ~ div > .gallery_img:nth-of-type(2),
+    #picture_module .picture_carousel_radio:nth-of-type(3):checked ~ div > .gallery_img:nth-of-type(3),
+    #picture_module .picture_carousel_radio:nth-of-type(4):checked ~ div > .gallery_img:nth-of-type(4),
+    #picture_module .picture_carousel_radio:nth-of-type(5):checked ~ div > .gallery_img:nth-of-type(5),
+    #picture_module .picture_carousel_radio:nth-of-type(6):checked ~ div > .gallery_img:nth-of-type(6),
+    #picture_module .picture_carousel_radio:nth-of-type(7):checked ~ div > .gallery_img:nth-of-type(7),
+    #picture_module .picture_carousel_radio:nth-of-type(8):checked ~ div > .gallery_img:nth-of-type(8),
+    #picture_module .picture_carousel_radio:nth-of-type(9):checked ~ div > .gallery_img:nth-of-type(9),
+    #picture_module .picture_carousel_radio:nth-of-type(10):checked ~ div > .gallery_img:nth-of-type(10),
+    #picture_module .picture_carousel_radio:nth-of-type(11):checked ~ div > .gallery_img:nth-of-type(11),
+    #picture_module .picture_carousel_radio:nth-of-type(12):checked ~ div > .gallery_img:nth-of-type(12){
+        opacity:1;
+        z-index:1;
+    }
+    .picture_carousel_radio:nth-of-type(2):checked ~ .picture_carousel_out > .gallery_img{
+        -webkit-transform:translateX(-100%);
+        -moz-transform:translateX(-100%);
+        -ms-transform:translateX(-100%);
+        -o-transform:translateX(-100%);
+        transform:translateX(-100%);
+    }
+    .picture_carousel_radio:nth-of-type(3):checked ~ .picture_carousel_out > .gallery_img{
+        -webkit-transform:translateX(-200%);
+        -moz-transform:translateX(-200%);
+        -ms-transform:translateX(-200%);
+        -o-transform:translateX(-200%);
+        transform:translateX(-200%);
+    }
+    .picture_carousel_radio:nth-of-type(4):checked ~ .picture_carousel_out > .gallery_img{
+        -webkit-transform:translateX(-300%);
+        -moz-transform:translateX(-300%);
+        -ms-transform:translateX(-300%);
+        -o-transform:translateX(-300%);
+        transform:translateX(-300%);
+    }
+    .picture_carousel_radio:nth-of-type(5):checked ~ .picture_carousel_out > .gallery_img{
+        -webkit-transform:translateX(-400%);
+        -moz-transform:translateX(-400%);
+        -ms-transform:translateX(-400%);
+        -o-transform:translateX(-400%);
+        transform:translateX(-400%);
+    }
+</style>
+<div id="template8" class="page_out pageOut">
+    <div class="layout">
+        <div class="grid">
+            <div class="module module_offset_fix">
+                <div id="banner"><img src="https://i.ibb.co/WHWpjJ0/demo-banner.jpg"></div>
+            </div>
+            <div class="module">
+                <div class="col_l module_l">
+                    <div class="module_offset_fix">
+                        <div id="storeCategories" class="widget widget-v-menu">
+                            <div class="navi_menu navi_menu_vertical">
+                                <input class="widget_menu_checkbox" type="checkbox" name="storeCategories-checkbox" id="storeCategories-checkbox">
+                                <label for="storeCategories-checkbox" class="navi_menu_toggle_bar">
+                                    <span class="navi_menu_toggle"><span></span></span>Store Categories
+                                </label>
+                                <div class="navi_title_content">
+                                    <h4>Store Categories</h4>
+                                </div>
+                                <ul id="storeCategoriesOut" class="navi_menu_list left"><li class="navi_menu_item navi_menu_allow_hover">
+<a href="http://www.ebay.com/str/katzaqualityproducts/China/_i.html?_storecat=65904324013" class="navi_menu_link" target="_blank">China</a>
+</li><li class="navi_menu_item navi_menu_allow_hover">
+<a href="http://www.ebay.com/str/katzaqualityproducts/USA/_i.html?_storecat=65904323013" class="navi_menu_link" target="_blank">USA</a>
+</li><li class="navi_menu_item navi_menu_allow_hover">
+<a href="http://www.ebay.com/str/katzaqualityproducts/Other/_i.html?_storecat=1" class="navi_menu_link" target="_blank">Other</a>
+</li></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module_prompt"></div>
+                </div>
+                <div class="col_r module_r">
+                    <div class="module module_offset_fix">
+                        <div id="templateTit"><b>This Sample Listing Title Is For Demonstration Purposes Only</b></div>
+                    </div>
+                   <!--  <div class="module module_offset_fix">
+                        <div id="templateVedio">
+                            <object type='application/x-shockwave-flash' data='url'>
+                                <param name='movie' value='url'/>
+                                <param name='allowFullScreen' value='true'/>
+                                <param name='allowscriptaccess' value='always'/>
+                            </object>
+                            <img src="https://s3.amazonaws.com/image-album/12/20171221/dd141b16f4f7b5e15c97725211e52f99.jpg">
+                        </div>
+                    </div> -->
+                    <div class="module module_offset_fix">
+                        <div id="picture_module" class="widget widget-gallery">
+                            <div class="r_gallery clearfix h_slide slide" data-as="h_slide">
+                                <input class="picture_carousel_radio" type="radio" name="picture_module_radio" id="picture_module_radio_0" checked="">
+                                <input class="picture_carousel_radio" type="radio" name="picture_module_radio" id="picture_module_radio_1">
+                                <input class="picture_carousel_radio" type="radio" name="picture_module_radio" id="picture_module_radio_2">
+                                <input class="picture_carousel_radio" type="radio" name="picture_module_radio" id="picture_module_radio_3">
+                                <input class="picture_carousel_radio" type="radio" name="picture_module_radio" id="picture_module_radio_4">
+                                <div id="picture_module_for" class="picture_carousel_out">
+                                    <div class="gallery_img">
+                                        <label class="prev" for="picture_module_radio_4"></label>
+                                        <label class="next" for="picture_module_radio_1"></label>
+                                        <img alt="" src="https://s3.amazonaws.com/image-album/12/20180402/92e0c86ebd394f68ec877399430f26bd.jpg">
+                                    </div>
+                                    <div class="gallery_img">
+                                        <label class="prev" for="picture_module_radio_0"></label>
+                                        <label class="next" for="picture_module_radio_2"></label>
+                                        <img alt="" src="https://s3.amazonaws.com/image-album/12/20180402/e3658002fdd4c4dcbf9974a936ff0349.jpg">
+                                    </div>
+                                    <div class="gallery_img">
+                                        <label class="prev" for="picture_module_radio_1"></label>
+                                        <label class="next" for="picture_module_radio_3"></label>
+                                        <img alt="" src="https://s3.amazonaws.com/image-album/12/20180402/af7344265ed584ae5fc5d05334a33217.jpg">
+                                    </div>
+                                    <div class="gallery_img">
+                                        <label class="prev" for="picture_module_radio_2"></label>
+                                        <label class="next" for="picture_module_radio_4"></label>
+                                        <img alt="" src="https://s3.amazonaws.com/image-album/12/20180402/630ab55ae6a5278d5dd983cd0dc72ebf.jpg">
+                                    </div>
+                                    <div class="gallery_img">
+                                        <label class="prev" for="picture_module_radio_3"></label>
+                                        <label class="next" for="picture_module_radio_0"></label>
+                                        <img alt="" src="https://s3.amazonaws.com/image-album/12/20180402/33830205b6ab3f0e91c226823a3994af.jpg">
+                                    </div>
+                                </div>
+                                <div id="picture_module_nav" class="gallery_nav" data-nav-item-width="120" data-nav-item-height="90">
+                                    <div class="gallery_img">
+                                        <label for="picture_module_radio_0">
+                                            <img alt="" src="https://s3.amazonaws.com/image-album/12/20180402/92e0c86ebd394f68ec877399430f26bd.jpg">
+                                        </label>
+                                    </div>
+                                    <div class="gallery_img">
+                                        <label for="picture_module_radio_1">
+                                            <img alt="" src="https://s3.amazonaws.com/image-album/12/20180402/e3658002fdd4c4dcbf9974a936ff0349.jpg">
+                                        </label>
+                                    </div>
+                                    <div class="gallery_img">
+                                        <label for="picture_module_radio_2">
+                                            <img alt="" src="https://s3.amazonaws.com/image-album/12/20180402/af7344265ed584ae5fc5d05334a33217.jpg">
+                                        </label>
+                                    </div>
+                                    <div class="gallery_img">
+                                        <label for="picture_module_radio_3">
+                                            <img alt="" src="https://s3.amazonaws.com/image-album/12/20180402/630ab55ae6a5278d5dd983cd0dc72ebf.jpg">
+                                        </label>
+                                    </div>
+                                    <div class="gallery_img">
+                                        <label for="picture_module_radio_4">
+                                            <img alt="" src="https://s3.amazonaws.com/image-album/12/20180402/33830205b6ab3f0e91c226823a3994af.jpg">
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="gallery_dots">
+                                    <label for="picture_module_radio_0"></label>
+                                    <label for="picture_module_radio_1"></label>
+                                    <label for="picture_module_radio_2"></label>
+                                    <label for="picture_module_radio_3"></label>
+                                    <label for="picture_module_radio_4"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module module_offset_fix">
+                        <div class="widget module_tit">
+                            <p><span>Details</span></p>
+                        </div>
+                        <div id="detail_info" class="widget">
+                            <div>
+                                <p style="padding:10px 0;">　　Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
+                            </div>
+                        <div><p><b>Item specifics</b></p><ul class="item_specifics_info"><li><p><b>Brand:</b></p><p>Unbranded</p></li><li><p><b>Bottoms Size (Women's):</b></p><p>2XS</p></li><li><p><b>Size Type:</b></p><p>Regular</p></li><li><p><b>Style:</b></p><p>Asymmetrical</p></li><li><p><b>Material:</b></p><p>100% Cotton</p></li><li><p><b>Pattern:</b></p><p>Floral</p></li></ul></div></div>
+                    </div>
+                    <div class="module module_offset_fix">
+                        <div id="storeDescriptionTab" class="widget widget_tab">
+                            <div class="r_tabs">
+                                <input class="widget_tab_radio" type="radio" name="storeDescriptionTab_radio" id="storeDescriptionTab_radio_1" checked="">
+                                <input class="widget_tab_radio" type="radio" name="storeDescriptionTab_radio" id="storeDescriptionTab_radio_2">
+                                <input class="widget_tab_radio" type="radio" name="storeDescriptionTab_radio" id="storeDescriptionTab_radio_3">
+                                <ul class="navi navi_pills">
+                                    <li><label for="storeDescriptionTab_radio_1">Shipping</label></li>
+                                    <li><label for="storeDescriptionTab_radio_2">Return Policy</label></li>
+                                    <li><label for="storeDescriptionTab_radio_3">About Us</label></li>
+                                </ul>
+                                <div class="tab_content">
+                                    <div class="tab_pane_wrapper">
+                                        <div class="navi_accordion_title active">
+                                            <label for="storeDescriptionTab_radio_1">Shipping</label>
+                                        </div>
+                                        <div class="tab_pane">
+                                            This sample Shipping description is for demonstration purposes only
+                                            <ul>
+                                                <li>Items are usually shipped in 1 working days after payment received. We do not ship on weekends and holidays.</li>
+                                                <li>All orders are shipped via UPS or USPS. Tracking number will be emailed to you once it is generated.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab_pane_wrapper">
+                                        <div class="navi_accordion_title active">
+                                            <label for="storeDescriptionTab_radio_2">Return Policy</label>
+                                        </div>
+                                        <div class="tab_pane">
+                                            This sample Return Policy is for demonstration purposes only
+                                            <ul>
+                                                <li>30 days refund, and 1 year manufactured warranty,warranty period starts from the date of purchase.</li>
+                                                <li>If you are not satisfied when receive your item, please return it within 30 days for a replacement or refund.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab_pane_wrapper">
+                                        <div class="navi_accordion_title active">
+                                            <label for="storeDescriptionTab_radio_3">About Us</label>
+                                        </div>
+                                        <div class="tab_pane">
+                                            This sample About Us is for demonstration purposes only<br />
+                                            <br />
+                                            Bussiness Hours:
+                                            <ul>
+                                                <li>Our online store opens 24 hours a day and 7 days a week.</li>
+                                                <li>Customer Support during: Monday to Friday (9:00 A.M.-5:00 P.M. EST).</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_content" id="footerContent">
+        <div class="grid">
+            <div class="footer_l">© 2019, All rights reserved</div>
+            
+        </div>
+    </div>
+</div>
+
+</body></html>
